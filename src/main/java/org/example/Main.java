@@ -11,9 +11,9 @@ public class Main {
 
         Dog jack = new Dog();
         jack.eating();
-        jack.color= "white";
+        jack.color= "blue";
         jack.printColor();
-        jack.name= "Hoo";
+        jack.name= "Roo";
         jack.printName();
     }
 }
