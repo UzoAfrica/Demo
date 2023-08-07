@@ -2,9 +2,12 @@ package org.example;
 
 public class Dog {
     //Properties
-    String color;
+    static String hospitalName = "xyz";
+    static String color;
     String name;
     String breed;
+
+    public Dog (){}
 
     //Methods
     public void wagTail(){
@@ -21,6 +24,9 @@ public class Dog {
     }
     public  void printName(){
         System.out.println(name);
+    }
+    public void specialCapability(){
+        System.out.println("Dog barks");
     }
 
 }
